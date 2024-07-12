@@ -10,7 +10,7 @@ public class BuscandoApi {
 
     public double obterTaxaDeCambio(String moedaEntrada, String moedaEscolha) {
         try {
-            String chaveApi = "c92c5c20d08341ebaa5002bb";
+            String chaveApi = "984b86c22beb2480bf5c4f75";
             String urlAPI = "https://v6.exchangerate-api.com/v6/" + chaveApi + "/latest/" + moedaEntrada;
 
             URL url = new URL(urlAPI);
